@@ -1,0 +1,24 @@
+.Footer {
+  background: #1C1C1C !important;
+  padding: 20px 120px;
+  position: absolute;
+  bottom: 0;
+  .content-footer {
+    width: 70%;
+  };
+  .side-bar-footer {
+    width: 30%;
+  };
+  .list-group-item{
+    border: none;
+    background: #1C1C1C !important;
+    &:before{
+      content: "•";
+      color: rgba(23, 80, 127, 1);
+      margin-right: 5px;
+    }
+  }
+  .icon {
+    margin-right: 5px;
+  }
+}

@@ -4,13 +4,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from "./PC/Home/Home"
-import NavBar from "../container/NavBar/Navbar";
+import Home from "./PC/Home/Home.lazy";
+import NavBar from "../container/NavBar/NavBar.lazy";
+import MenuHeader from "../container/MenuHeader/MenuHeader.lazy";
+import Footer from "../container/Footer/Footer.lazy";
 
 const PC = () => (
     <Router>
-      <div>
+      <div id="container">
         <NavBar/>
+        <MenuHeader/>
         <Switch>
           <Route path="/about">
             <About />
@@ -22,6 +25,7 @@ const PC = () => (
             <Home />
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
 )

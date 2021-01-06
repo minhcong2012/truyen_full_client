@@ -1,8 +1,11 @@
 $primary-color: #143E60;
 $border-color: #346893;
+$main-color: #17507F;
 .navbar {
-	height: 86px;
-	background-color: #17507F;
+  height: 86px;
+  padding: 0 120px !important;
+  background: linear-gradient(180deg, #17507F 0%, rgba(23, 80, 127, 0) 273.26%);
+  position: relative;
 	select { 
     border-radius: 0;
   };
@@ -29,33 +32,31 @@ $border-color: #346893;
     height: 44px;
     background-color: $primary-color;
     color: rgba(226, 226, 226, 1);
-    border: none;
+    border: 1px solid $border-color;
+    border-style: none solid none none;
+    padding: 10px 20px;
   }
   .form-control {
     border-color: $border-color;
-    border-style: none solid none solid;
+    border-style: none solid none none;
     height: 44px;
     background-color: $primary-color;
     color: rgba(226, 226, 226, 1);
+    padding: 10px 20px;
     &:focus {
       background-color: $primary-color;
       color: rgba(226, 226, 226, 1);
     }
   }
   .input-group {
-    max-width: 740px;
-    border: 1px solid$border-color;
+    max-width: 50%;
+    border: 1px solid $border-color;
     background-color: $primary-color;
-    :first-child {
-      border-right: 1px solid #346893;
-    };
-    * {
-      padding: 10px 20px;
-    }
   }
 
   .notification {
     position: relative;
+    background-color: #143E60;
     background-color: linear-gradient(179.28deg, #17507F 0.62%, rgba(23, 80, 127, 0) 240.13%);
     border: 1px solid $border-color;
   }
@@ -68,5 +69,44 @@ $border-color: #346893;
     right: 5px;
     bottom: 5px;
     border: 1px solid #346893;
+  }
+  .btn-warning {
+    margin-left: 10px;
+    background-color: #FF6B00;
+    border: 1px solid #346893;
+    &:hover {
+      background-color: #BD4F00;
+    }
+  }
+  .btn-search{
+    background: linear-gradient(179.28deg, #17507F 0.62%, rgba(23, 80, 127, 0) 240.13%) ;
+  }
+  .recommend-paper{
+    z-index: 2;
+    padding: 0;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    .list-group-item{
+      color: #fff;
+      background-color: $main-color;
+    }
+  }
+  .breadcrumb{
+    padding: 0;
+    background-color: inherit;
+    margin-bottom: 0;
+  }
+  .label-status {
+    &__updating {
+      background-color: #FF6B00;
+      padding: 0 5px;
+      margin: 2px;
+    }
+    &__new {
+      background-color: #128D08;
+      padding: 0 5px;
+      margin: 2px;
+    }
   }
 }

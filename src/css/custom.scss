@@ -7,5 +7,17 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+#container{ 
+	position: relative;
+	min-height: 100vh;
+}
+#root{
+	color: #fff;
+	font-size: 14px;
+	background-color: #060606;
+}
 @import "navbar.scss";
 @import "button.scss";
+@import "menu-header.scss";
+@import "home.scss";
+@import "footer.scss";

@@ -1,4 +1,12 @@
 .btn {
+  padding: 10px;
   color: #fff !important;
-  background-color: linear-gradient(#17507F, rgba(23, 80, 127, 0));
+  border: none !important;
+}
+
+.btn-main {
+  border-radius: 0 !important;
+  background: linear-gradient(180deg, #17507F -27.78%, rgba(23, 80, 127, 0) 222.22%);
+  border: none;
+  cursor: pointer;
 }

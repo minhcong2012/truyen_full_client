@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className="navbar d-flex justify-content-between navbar-expand-lg navbar-light">
       <a className="navbar-brand" href="/">
-        <img src="/img/logo.png" />
+        <img src="./img/logo.png" />
       </a>
       <div className="input-group">
         <select className="selectpicker custom-select-nav">
@@ -27,7 +27,7 @@ const NavBar = () => {
         <button className="btn btn-main" type="submit">TÌM KIẾM</button>
         {keySearch && 
           <div className="list-group recommend-paper">
-            <a href="/" className="list-group-item list-group-item-action" aria-current="true">
+            <a href="/truyen_full_client/" className="list-group-item list-group-item-action" aria-current="true">
               <div className="d-flex w-100 mb-1">
                 <small className="label-status__updating">UPDATING</small>
                 <small className="label-status__new">NEW</small>

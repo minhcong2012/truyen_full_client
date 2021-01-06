@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/truyen_full_client/static/css/main.76f31f2e.chunk.css",
+    "main.css": "/truyen_full_client/static/css/main.7e776291.chunk.css",
     "main.js": "/truyen_full_client/static/js/main.e3eae1b4.chunk.js",
     "main.js.map": "/truyen_full_client/static/js/main.e3eae1b4.chunk.js.map",
     "runtime-main.js": "/truyen_full_client/static/js/runtime-main.f2a6b044.js",
@@ -20,14 +20,14 @@
     "static/js/7.36da9dbd.chunk.js.map": "/truyen_full_client/static/js/7.36da9dbd.chunk.js.map",
     "index.html": "/truyen_full_client/index.html",
     "static/css/2.95f25948.chunk.css.map": "/truyen_full_client/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.76f31f2e.chunk.css.map": "/truyen_full_client/static/css/main.76f31f2e.chunk.css.map",
+    "static/css/main.7e776291.chunk.css.map": "/truyen_full_client/static/css/main.7e776291.chunk.css.map",
     "static/js/2.3598d7ec.chunk.js.LICENSE.txt": "/truyen_full_client/static/js/2.3598d7ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f2a6b044.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.3598d7ec.chunk.js",
-    "static/css/main.76f31f2e.chunk.css",
+    "static/css/main.7e776291.chunk.css",
     "static/js/main.e3eae1b4.chunk.js"
   ]
 }

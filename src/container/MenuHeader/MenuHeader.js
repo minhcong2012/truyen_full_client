@@ -7,7 +7,7 @@ const MenuHeader = () => {
   return (
     <div className="menu-header">
       <div className="pos-relavtive d-flex justify-content-between">
-        <button className="btn btn-main" type="submit" onClick={() => setOpenMenu(!openMenu)}>DANH SÁCH LOẠI TRUYỆN</button>
+        <button className="btn btn-main" type="submit" onBlur={() => setOpenMenu(false)} onClick={() => setOpenMenu(!openMenu)}>DANH SÁCH LOẠI TRUYỆN</button>
         <div className="categories">
           <button className="btn" type="submit">TRUYỆN NGÔN TÌNH</button>
           <button className="btn" type="submit">TRUYỆN KIẾM HIỆP</button>

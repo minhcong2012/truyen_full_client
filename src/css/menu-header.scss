@@ -4,6 +4,9 @@ $main-color: #17507F;
 .menu-header {
   height: 54px;
   padding: 0 120px !important;
+  @media screen and (max-width: 1300px){
+    padding: 0 10px !important;
+  }
   background: linear-gradient(0deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
   .switch {
     margin: 15px;

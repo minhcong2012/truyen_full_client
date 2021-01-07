@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className="navbar d-flex justify-content-between navbar-expand-lg navbar-light">
       <a className="navbar-brand" href="/">
-        <img src="./img/logo.png" />
+        <img src="/img/logo.png" />
       </a>
       <div className="input-group">
         <select className="selectpicker custom-select-nav">

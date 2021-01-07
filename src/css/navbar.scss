@@ -4,6 +4,9 @@ $main-color: #17507F;
 .navbar {
   height: 86px;
   padding: 0 120px !important;
+  @media screen and (max-width: 1300px){
+    padding: 0 10px !important;
+  }
   background: linear-gradient(180deg, #17507F 0%, rgba(23, 80, 127, 0) 273.26%);
   position: relative;
 	select { 

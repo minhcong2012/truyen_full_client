@@ -5,20 +5,21 @@ import Full from './parts/Full';
 import Update from './parts/Update';
 import Saved from './parts/Saved';
 import Reading from './parts/Reading';
+import { Accordion, Card, ListGroup } from 'react-bootstrap';
 
 const Home = () => (
   <div className="Home">
-    <div>
-      <div className="d-flex">
-        <div className="content-home">
-          <Recommend/>
-          <Update/>
-        </div>
-        <div className="side-bar-home">
-          <Reading/>
-          <Saved/>
-          <Full/>
-        </div>
+    <div className="d-flex">
+      <div className="content-home">
+        <Recommend/>
+        <Update/>
+      </div>
+      <div className="side-bar-home">
+      <Accordion defaultActiveKey="0">
+        <Reading/>
+        <Saved/>
+      </Accordion>
+      <Full/>
       </div>
     </div>
   </div>

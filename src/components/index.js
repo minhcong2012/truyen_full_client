@@ -5,14 +5,14 @@ import {
   Link
 } from "react-router-dom";
 import Home from "./PC/Home/Home.lazy";
-import NavBar from "../container/NavBar/NavBar.lazy";
+import NavBarHead from "../container/NavBarHead/NavBarHead.lazy";
 import MenuHeader from "../container/MenuHeader/MenuHeader.lazy";
 import Footer from "../container/Footer/Footer.lazy";
 
 const PC = () => (
     <Router>
       <div id="container">
-        <NavBar/>
+        <NavBarHead/>
         <MenuHeader/>
         <Switch>
           <Route path="/about">

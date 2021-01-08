@@ -60,8 +60,8 @@ $main-color: #17507F;
   .notification {
     position: relative;
     background-color: #143E60;
-    background-color: linear-gradient(179.28deg, #17507F 0.62%, rgba(23, 80, 127, 0) 240.13%);
-    border: 1px solid $border-color;
+    background: linear-gradient(179.28deg, #17507F 0.62%, rgba(23, 80, 127, 0) 240.13%);
+    border: 1px solid #346893 !important;
   }
   .notification:before {
     content: " ";

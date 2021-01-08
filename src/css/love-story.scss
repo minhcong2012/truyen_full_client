@@ -1,0 +1,46 @@
+.LoveStory {
+  .card {
+    border-radius: 0;
+    border: none;
+    border: 1px solid #484242;
+    .card-header{
+      text-transform: uppercase;
+      font-weight: 700;
+      background: linear-gradient(180deg, #252424 0%, rgba(0, 0, 0, 0) 294.29%);
+      background-color: black;
+      border-bottom: 1px solid #484242;
+    }
+    .card-body {
+      background-color: #1C1C1C;
+      .list-group-item{
+        background-color: inherit;
+        background-color: #181818;
+        border: 1px solid #2C2C2C;
+      }
+    };
+  }
+  .row {
+    margin-top: 10px;
+  }
+  .breadcrumb {
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: inherit;
+    padding: 0;
+    border-radius: 0.25rem;
+  }
+  .pagination {
+    margin: 10px auto;
+    justify-content: center;
+  }
+  .page-link{
+    color: #fff;
+    background-color: inherit;
+    border: none;
+  }
+  .page-item.active .page-link {
+    background-color: #17507F !important;
+    border: none;
+  }
+}

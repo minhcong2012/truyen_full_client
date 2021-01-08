@@ -41,334 +41,10 @@ const [ tab, setTab ] = useState(1);
               <div className="label-status-full">FULL</div>
               <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
               <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
-              </small>
-            </td>
-            <td>
-              Full
-              <br/>
-              174 Chương
-            </td>
-            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div className="label-status-full">FULL</div>
-              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
-              <small>
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">Ngôn Tình, Nhìn Xuyên Không</li>
-                  <li className="breadcrumb-item" aria-current="page"><u>34 chương</u></li>
-                </ol>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
               </small>
             </td>
             <td>
@@ -384,10 +60,314 @@ const [ tab, setTab ] = useState(1);
               <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
               <small>
                 <Breadcrumb>
-                  <Breadcrumb.Item href="#">Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
-                  <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-                    34 chương
-                  </Breadcrumb.Item>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
+                </Breadcrumb>
+              </small>
+            </td>
+            <td>
+              Full
+              <br/>
+              174 Chương
+            </td>
+            <td><span className="fas fa-clock"></span>&nbsp;<span>23 phút trước</span></td>
+          </tr>
+          <tr>
+            <td>
+              <div className="label-status-full">FULL</div>
+              <p>Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</p>
+              <small>
+                <Breadcrumb>
+                  <Breadcrumb.Item>Ngôn Tình, Nhìn Xuyên Không</Breadcrumb.Item>
+                  <Breadcrumb.Item><u>34 chương</u></Breadcrumb.Item>
                 </Breadcrumb>
               </small>
             </td>

@@ -1,0 +1,30 @@
+.side-bar{
+  .card {
+    border-radius: 0;
+    border: none;
+    .card-header{
+      font-weight: 700;
+      background: linear-gradient(180deg, #17507F 0%, rgba(24, 54, 79, 0) 326.67%);
+      background-color: black;
+    }
+    .card-body {
+      background-color: #1C1C1C;
+      .list-group-item{
+        background-color: inherit;
+        border-bottom: 1px solid #C4C4C4;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: solid;
+        border-left-style: none;
+      }
+    };
+  }
+  .breadcrumb {
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: inherit;
+    padding: 0;
+    border-radius: 0.25rem;
+  }
+}

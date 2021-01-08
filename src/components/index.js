@@ -7,6 +7,8 @@ import {
 import Home from "./PC/Home/Home.lazy";
 import NavBarHead from "../container/NavBarHead/NavBarHead.lazy";
 import MenuHeader from "../container/MenuHeader/MenuHeader.lazy";
+import RightSideBar from "../container/RightSideBar/RightSideBar.lazy";
+import LoveStory from "./PC/LoveStory/LoveStory.lazy";
 import Footer from "../container/Footer/Footer.lazy";
 
 const PC = () => (
@@ -14,17 +16,17 @@ const PC = () => (
       <div id="container">
         <NavBarHead/>
         <MenuHeader/>
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <div id="main" className="d-flex">
+          <div className="content">
+            <Switch>
+              <Route path="/" component={Home} exact/>
+              <Route path="/truyen-ngon-tinh" component={LoveStory} exact/>
+            </Switch>
+          </div>
+          <div className="side-bar">
+            <RightSideBar/>
+          </div>
+        </div>
         <Footer/>
       </div>
     </Router>

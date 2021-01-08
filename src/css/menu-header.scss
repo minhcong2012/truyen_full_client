@@ -69,18 +69,25 @@ $main-color: #17507F;
   .slider.round:before {
     border-radius: 50%;
   }
-
+  
   .categories {
     height: 100%;
     .btn {
+      background-color: inherit;
       height: 100%;
       margin: auto 10px;
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+      }
     }
   }
   .d-flex{
     height: 100%;
   }
   .categories-list{
+    z-index: 11;
     position: absolute;
     top: 54px;
     width: 100%;

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
+import { Button } from "react-bootstrap";
 
 const MenuHeader = () => {
 
@@ -7,13 +8,13 @@ const MenuHeader = () => {
   return (
     <div className="menu-header">
       <div className="pos-relavtive d-flex justify-content-between">
-        <button className="btn btn-main" type="submit" onBlur={() => setOpenMenu(false)} onClick={() => setOpenMenu(!openMenu)}>DANH SÁCH LOẠI TRUYỆN</button>
+        <Button className="btn-main" onBlur={() => setOpenMenu(false)} onClick={() => setOpenMenu(!openMenu)}>DANH SÁCH LOẠI TRUYỆN</Button>
         <div className="categories">
-          <button className="btn" type="submit">TRUYỆN NGÔN TÌNH</button>
-          <button className="btn" type="submit">TRUYỆN KIẾM HIỆP</button>
-          <button className="btn" type="submit">TRUYỆN TRINH THÁM</button>
-          <button className="btn" type="submit">TIỂU THUYẾT</button>
-          <button className="btn" type="submit">TRUYỆN TEEN</button>
+          <Button><a href="/truyen-ngon-tinh">TRUYỆN NGÔN TÌNH</a></Button>
+          <Button><a href="/truyen-ngon-tinh">TRUYỆN KIẾM HIỆP</a></Button>
+          <Button><a href="/truyen-ngon-tinh">TRUYỆN TRINH THÁM</a></Button>
+          <Button><a href="/truyen-ngon-tinh">TIỂU THUYẾT</a></Button>
+          <Button><a href="/truyen-ngon-tinh">TRUYỆN TEEN</a></Button>
         </div>
         <div>
           <label className="switch">

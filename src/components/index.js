@@ -10,6 +10,7 @@ import MenuHeader from "../container/MenuHeader/MenuHeader.lazy";
 import RightSideBar from "../container/RightSideBar/RightSideBar.lazy";
 import LoveStory from "./PC/LoveStory/LoveStory.lazy";
 import Footer from "../container/Footer/Footer.lazy";
+import DetailStory from "./PC/DetailStory/DetailStory";
 
 const PC = () => (
     <Router>
@@ -21,6 +22,7 @@ const PC = () => (
             <Switch>
               <Route path="/" component={Home} exact/>
               <Route path="/truyen-ngon-tinh" component={LoveStory} exact/>
+              <Route path="/truyen/:id" component={DetailStory}/>
             </Switch>
           </div>
           <div className="side-bar">

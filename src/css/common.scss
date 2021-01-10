@@ -22,10 +22,14 @@ html {
 }
 .content {
 	width: 70%;
+	font-family: Helvetica Neue;
 }
 .side-bar{
   width: 30%;
-  margin: 0 20px;
+	margin: 0 20px;
+	*{
+		font-family: UTM Avo;
+	}
 }
 #main{
 	padding: 0 120px !important;
@@ -58,4 +62,8 @@ html {
 	text-align: center;
 	font-size: 9px;
 	background-color: #FD6A00;
+}
+.icon-btn{
+	margin-right: 5px;
+	font-family: "Font Awesome 5 Free" !important;
 }

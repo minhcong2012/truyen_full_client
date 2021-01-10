@@ -8,7 +8,7 @@ const MenuHeader = () => {
   return (
     <div className="menu-header">
       <div className="pos-relavtive d-flex justify-content-between">
-        <Button className="btn-main" onBlur={() => setOpenMenu(false)} onClick={() => setOpenMenu(!openMenu)}>DANH SÁCH LOẠI TRUYỆN</Button>
+        <Button className="btn-main" onBlur={() => setOpenMenu(false)} onClick={() => setOpenMenu(!openMenu)}><i className="fas fa-bars icon-btn"></i>DANH SÁCH LOẠI TRUYỆN</Button>
         <div className="categories">
           <Button><a href="/truyen-ngon-tinh">TRUYỆN NGÔN TÌNH</a></Button>
           <Button><a href="/truyen-ngon-tinh">TRUYỆN KIẾM HIỆP</a></Button>

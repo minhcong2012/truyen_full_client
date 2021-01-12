@@ -11,7 +11,7 @@ const Full = () => (
       <ListGroup>
         <ListGroup.Item>
           <div className="d-flex">
-            <img src="/img/recommend-cover.png" height={104}/>
+            <img alt="img" src="/img/recommend-cover.png" height={104}/>
             <div className="ml-3">
               <div className="mb-1">
                 <small className="label-status-updating">UPDATING</small>
@@ -29,7 +29,7 @@ const Full = () => (
         </ListGroup.Item>
         <ListGroup.Item>
           <div className="d-flex">
-            <img src="/img/recommend-cover.png" height={104}/>
+            <img alt="img" src="/img/recommend-cover.png" height={104}/>
             <div className="ml-3">
               <div className="mb-1">
                 <small className="label-status-full">FULL</small>
@@ -47,7 +47,7 @@ const Full = () => (
         </ListGroup.Item>
         <ListGroup.Item>
           <div className="d-flex">
-            <img src="/img/recommend-cover.png" height={104}/>
+            <img alt="img" src="/img/recommend-cover.png" height={104}/>
             <div className="ml-3">
               <div className="mb-1">
                 <small className="label-status-updating">UPDATING</small>

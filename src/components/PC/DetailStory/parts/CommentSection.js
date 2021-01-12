@@ -51,7 +51,7 @@ const CommentSections = () => {
       </div>
       <div className="bg-light p-2">
         <div className="d-flex flex-row align-items-start">
-          <img className="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"/>
+          <img alt="img" className="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"/>
           <textarea className="form-control ml-1 shadow-none textarea"></textarea>
         </div>
         <div className="mt-2 text-right">

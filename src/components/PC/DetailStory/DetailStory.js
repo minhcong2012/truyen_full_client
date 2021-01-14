@@ -12,7 +12,7 @@ const DetailStory = () => {
         <tbody>
           <tr>
             <td rowSpan="8" className="story-img">
-              <img alt="I" src="/img/recommend-cover.png"/>
+              <img alt="img" src="/img/recommend-cover.png"/>
             </td>
             <td className="story-info">
               <div><b>Tác giả:</b> Phi Thiên Ngư</div>
@@ -25,7 +25,7 @@ const DetailStory = () => {
           </tr>
           <tr>
             <td>
-              <Button className="btn-readnow"><i className="fas fa-book-open icon-btn"></i>Đọc truyện ngay</Button>
+              <Button className="btn-readnow" href="/truyen/luon-co-nguoi-dien/doc-truyen"><i className="fas fa-book-open icon-btn"></i>Đọc truyện ngay</Button>
               <Button className="btn-savestory"><i className="fas fa-plus icon-btn"></i>Lưu truyện đọc sau</Button>
             </td>
           </tr>

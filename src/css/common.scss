@@ -24,6 +24,9 @@ html {
 	width: 70%;
 	font-family: Helvetica Neue;
 }
+.content-full {
+	width: 100% !important;
+}
 .side-bar{
   width: 30%;
 	margin: 0 20px;
@@ -65,5 +68,6 @@ html {
 }
 .icon-btn{
 	margin-right: 5px;
+	cursor: pointer;
 	font-family: "Font Awesome 5 Free" !important;
 }

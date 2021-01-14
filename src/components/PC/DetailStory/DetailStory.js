@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types';
-import { Table, Button, Nav, Form, Container, Row, Col, Image, Card, Breadcrumb } from "react-bootstrap";
+// import PropTypes from 'prop-types';
+import { Table, Button, Nav, Form, Container, Row, Col, Card, Breadcrumb } from "react-bootstrap";
 import CommentSections from './parts/CommentSection';
 
 const DetailStory = () => {
@@ -12,7 +12,7 @@ const DetailStory = () => {
         <tbody>
           <tr>
             <td rowSpan="8" className="story-img">
-              <img src="/img/recommend-cover.png"/>
+              <img alt="I" src="/img/recommend-cover.png"/>
             </td>
             <td className="story-info">
               <div><b>Tác giả:</b> Phi Thiên Ngư</div>
@@ -112,7 +112,7 @@ const DetailStory = () => {
       <div className="relate-story">
         <Nav className="d-flex justify-content-between">
           <Nav.Item className="active title-relate">TRUYỆN ĐỀ XUẤT</Nav.Item>
-          <u><a href="#">Xem tất cả &gt;&gt;</a></u>
+          <u><a href="/">Xem tất cả &gt;&gt;</a></u>
         </Nav>
         <Container>
           <Row xs={4} className="row-custom-5">

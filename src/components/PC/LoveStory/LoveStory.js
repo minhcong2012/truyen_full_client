@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Card, ListGroup, Container, Row, Col, Pagination } from "react-bootstrap";
 
 const LoveStory = () => {
@@ -15,7 +15,7 @@ const LoveStory = () => {
               <Col>
                 <ListGroup.Item>
                   <div className="d-flex">
-                    <img src="img/recommend-cover.png" height={104}/>
+                    <img alt="img" src="img/recommend-cover.png" height={104}/>
                     <div className="ml-3">
                       <div className="mb-1">
                         <small className="label-status-updating">UPDATING</small>
@@ -43,65 +43,7 @@ const LoveStory = () => {
               <Col>
                 <ListGroup.Item>
                   <div className="d-flex">
-                    <img src="img/recommend-cover.png" height={104}/>
-                    <div className="ml-3">
-                      <div className="mb-1">
-                        <small className="label-status-updating">UPDATING</small>
-                        <small className="label-status-new">NEW</small>
-                      </div>
-                      <h6 className="mb-1">Quỷ Đế Cuồng Thê: Đại Tiểu Thư Ăn Chơi Trác Táng</h6>
-                      <div className="card-body__start-rate">
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="card-body__point-rate">5.0</span>
-                      </div>
-                      <small>
-                        <ol className="breadcrumb">
-                          <li className="breadcrumb-item active">Ngôn tình</li>
-                          <li className="breadcrumb-item active" aria-current="page"><u>34 chương</u></li>
-                        </ol>
-                      </small>
-                    </div>
-                  </div>
-                </ListGroup.Item>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <ListGroup.Item>
-                  <div className="d-flex">
-                    <img src="img/recommend-cover.png" height={104}/>
-                    <div className="ml-3">
-                      <div className="mb-1">
-                        <small className="label-status-updating">UPDATING</small>
-                        <small className="label-status-new">NEW</small>
-                      </div>
-                      <h6 className="mb-1">Quỷ Đế Cuồng Thê: Đại Tiểu Thư Ăn Chơi Trác Táng</h6>
-                      <div className="card-body__start-rate">
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="card-body__point-rate">5.0</span>
-                      </div>
-                      <small>
-                        <ol className="breadcrumb">
-                          <li className="breadcrumb-item active">Ngôn tình</li>
-                          <li className="breadcrumb-item active" aria-current="page"><u>34 chương</u></li>
-                        </ol>
-                      </small>
-                    </div>
-                  </div>
-                </ListGroup.Item>
-              </Col>
-              <Col>
-                <ListGroup.Item>
-                  <div className="d-flex">
-                    <img src="img/recommend-cover.png" height={104}/>
+                    <img alt="img" src="img/recommend-cover.png" height={104}/>
                     <div className="ml-3">
                       <div className="mb-1">
                         <small className="label-status-updating">UPDATING</small>
@@ -131,7 +73,7 @@ const LoveStory = () => {
               <Col>
                 <ListGroup.Item>
                   <div className="d-flex">
-                    <img src="img/recommend-cover.png" height={104}/>
+                    <img alt="img" src="img/recommend-cover.png" height={104}/>
                     <div className="ml-3">
                       <div className="mb-1">
                         <small className="label-status-updating">UPDATING</small>
@@ -159,7 +101,65 @@ const LoveStory = () => {
               <Col>
                 <ListGroup.Item>
                   <div className="d-flex">
-                    <img src="img/recommend-cover.png" height={104}/>
+                    <img alt="img" src="img/recommend-cover.png" height={104}/>
+                    <div className="ml-3">
+                      <div className="mb-1">
+                        <small className="label-status-updating">UPDATING</small>
+                        <small className="label-status-new">NEW</small>
+                      </div>
+                      <h6 className="mb-1">Quỷ Đế Cuồng Thê: Đại Tiểu Thư Ăn Chơi Trác Táng</h6>
+                      <div className="card-body__start-rate">
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="card-body__point-rate">5.0</span>
+                      </div>
+                      <small>
+                        <ol className="breadcrumb">
+                          <li className="breadcrumb-item active">Ngôn tình</li>
+                          <li className="breadcrumb-item active" aria-current="page"><u>34 chương</u></li>
+                        </ol>
+                      </small>
+                    </div>
+                  </div>
+                </ListGroup.Item>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <ListGroup.Item>
+                  <div className="d-flex">
+                    <img alt="img" src="img/recommend-cover.png" height={104}/>
+                    <div className="ml-3">
+                      <div className="mb-1">
+                        <small className="label-status-updating">UPDATING</small>
+                        <small className="label-status-new">NEW</small>
+                      </div>
+                      <h6 className="mb-1">Quỷ Đế Cuồng Thê: Đại Tiểu Thư Ăn Chơi Trác Táng</h6>
+                      <div className="card-body__start-rate">
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="fas fa-star"></span>
+                        <span className="card-body__point-rate">5.0</span>
+                      </div>
+                      <small>
+                        <ol className="breadcrumb">
+                          <li className="breadcrumb-item active">Ngôn tình</li>
+                          <li className="breadcrumb-item active" aria-current="page"><u>34 chương</u></li>
+                        </ol>
+                      </small>
+                    </div>
+                  </div>
+                </ListGroup.Item>
+              </Col>
+              <Col>
+                <ListGroup.Item>
+                  <div className="d-flex">
+                    <img alt="img" src="img/recommend-cover.png" height={104}/>
                     <div className="ml-3">
                       <div className="mb-1">
                         <small className="label-status-updating">UPDATING</small>

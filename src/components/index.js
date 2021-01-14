@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from "./PC/Home/Home.lazy";
 import NavBarHead from "../container/NavBarHead/NavBarHead.lazy";
@@ -35,11 +34,3 @@ const PC = () => (
 )
 
 export default PC;
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}

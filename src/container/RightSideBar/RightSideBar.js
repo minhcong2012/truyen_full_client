@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Full from './parts/Full';
 import Saved from './parts/Saved';
 import Reading from './parts/Reading';

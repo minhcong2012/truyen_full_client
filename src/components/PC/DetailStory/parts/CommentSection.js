@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Media, Image} from "react-bootstrap";
+import {Container, Row, Media, Image} from "react-bootstrap";
 
 const CommentSections = () => {
   return (
@@ -12,7 +12,7 @@ const CommentSections = () => {
           height={40}
           className="mr-3"
           src="https://i.imgur.com/RpzrMR2.jpg"
-          alt="Generic placeholder"
+          alt="img"
         />
         <Media.Body>
           <h5>Minh Công</h5>
@@ -47,11 +47,11 @@ const CommentSections = () => {
         Xem thêm 23 bình luận
       </div>
       <div className="login-require">
-        Vui lòng <a href="#">đăng nhập</a> để bình luận
+        Vui lòng <a href="/">đăng nhập</a> để bình luận
       </div>
       <div className="bg-light p-2">
         <div className="d-flex flex-row align-items-start">
-          <img className="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"/>
+          <img alt="img" className="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"/>
           <textarea className="form-control ml-1 shadow-none textarea"></textarea>
         </div>
         <div className="mt-2 text-right">

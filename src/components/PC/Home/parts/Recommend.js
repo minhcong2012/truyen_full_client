@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Breadcrumb, Col, Container, Nav, Row, Card } from "react-bootstrap";
 
 const Recommend = () => {
@@ -10,7 +10,7 @@ const Recommend = () => {
     <div className="Recommend">
       <Nav className="d-flex justify-content-between">
         <Nav.Item className="active title">TRUYỆN ĐỀ XUẤT</Nav.Item>
-        <Nav.Item className="active more"><u><a href="#">Xem tất cả &gt;&gt;</a></u></Nav.Item>
+        <Nav.Item className="active more">Xem tất cả &gt;&gt;</Nav.Item>
       </Nav>
       <Container>
         <Row xs={4}>

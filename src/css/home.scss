@@ -103,7 +103,8 @@
       }
       .active{
         border: none;
-        background: linear-gradient(180deg, #17507F 0%, rgba(24, 54, 79, 0) 326.67%) !important;
+        border-bottom: 2px solid #17507F !important;
+        background-color: inherit !important;
       }
       .table {
         background-color: #1C1C1C;

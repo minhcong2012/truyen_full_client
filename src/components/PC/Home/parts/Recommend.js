@@ -10,7 +10,7 @@ const Recommend = () => {
     <div className="Recommend">
       <Nav className="d-flex justify-content-between">
         <Nav.Item className="active title">TRUYỆN ĐỀ XUẤT</Nav.Item>
-        <Nav.Item className="active more">Xem tất cả &gt;&gt;</Nav.Item>
+        <Nav.Item className="active more"><a href="/">Xem tất cả  &gt;&gt;</a></Nav.Item>
       </Nav>
       <Container>
         <Row xs={4}>

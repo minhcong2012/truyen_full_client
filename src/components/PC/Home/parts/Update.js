@@ -9,7 +9,7 @@ const [ tab, setTab ] = useState(2);
     <div className="Update">
       <Nav variant="tabs" activeKey={tab}>
         <Nav.Item>
-          <Nav.Link href="/" style={{ background: "linear-gradient(180deg, #17507F 0%, rgba(24, 54, 79, 0) 326.67%)"}} eventKey={1} onClick={() => setTab(1)} disabled>TRUYỆN MỚI CẬP NHẬT</Nav.Link>
+          <Nav.Link href="/" className="update-title" style={{ background: "linear-gradient(180deg, #17507F 0%, rgba(24, 54, 79, 0) 326.67%)"}} eventKey={1} onClick={() => setTab(1)} disabled>TRUYỆN MỚI CẬP NHẬT</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={2} onClick={() => setTab(2)}>TRUYỆN NGÔN TÌNH</Nav.Link>

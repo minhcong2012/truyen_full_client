@@ -2,9 +2,19 @@ import React, {useState} from 'react';
 // import PropTypes from 'prop-types';
 import { Button } from "react-bootstrap";
 
-const MenuHeader = () => {
+const MenuHeader = ({...props}) => {
 
   const [openMenu, setOpenMenu] = useState(false); 
+
+  const onChangeMode = e => {
+    if(e.target.checked){
+      props.setMode("light")
+    }
+    else {
+      props.setMode("dark")
+    }
+  }
+
   return (
     <div className="menu-header">
       <div className="pos-relavtive d-flex justify-content-between">
@@ -18,7 +28,7 @@ const MenuHeader = () => {
         </div>
         <div>
           <label className="switch">
-            <input type="checkbox"/>
+            <input type="checkbox" onChange={onChangeMode}/>
             <span className="slider round"></span>
           </label>
         </div>

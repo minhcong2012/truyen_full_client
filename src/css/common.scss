@@ -50,6 +50,7 @@ html {
 	text-align: center;
 	font-size: 9px;
 	background-color: #0382AA;
+	color: #fff;
 }
 .label-status-new{
 	padding: 0.2rem;
@@ -57,6 +58,7 @@ html {
 	text-align: center;
 	font-size: 9px;
 	background-color: #128D08;
+	color: #fff;
 }
 .label-status-updating{
 	margin-right: 2px !important;
@@ -65,9 +67,80 @@ html {
 	text-align: center;
 	font-size: 9px;
 	background-color: #FD6A00;
+	color: #fff;
 }
 .icon-btn{
 	margin-right: 5px;
 	cursor: pointer;
 	font-family: "Font Awesome 5 Free" !important;
+}
+
+.light{
+	background-color: #fff !important;
+	.categories-list{
+		.list-group{
+			width: 20%;
+			border-radius: 0 !important;
+			z-index: 2;
+			.list-group-item{
+				background-color: rgba(23, 80, 127, 1) !important;
+				border: 1px solid #C4C4C4;
+				&:before{
+					content: "•";
+					color: #3F6788;
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+	.side-bar{
+		.card-body{
+			background-color: #EAEAEA !important;
+			color: #000;
+		}
+	}
+	.Update{
+		.nav-link{
+			color: #000 !important;
+		}
+		.update-title{
+			color: #fff !important;
+		}
+		th{
+			background-color: rgba(70, 118, 158, 1);
+		}
+		td{
+			background-color: #EAEAEA !important;
+			color: #000;
+		}
+	}
+	.Footer{
+		background-color: #17507F !important;
+		.list-group-item{
+			background-color: #17507F !important;
+		}
+	}
+	.LoveStory{
+		.card-header{
+			background-color: #17507F !important;
+			background: linear-gradient(180deg, #164367 0%, #163D5D 294.29%);
+		}
+		.card-body{
+			background-color: rgba(234, 234, 234, 1);
+		}
+		.list-group-item{
+			background-color: #fff !important;
+			color: #000;
+		}
+		.page-item{
+			.page-link{
+				color: #000 !important;
+			}
+		}
+		.active{
+			.page-link{
+				color: #fff !important;
+			}
+		}
+	}
 }

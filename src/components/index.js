@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
 
 const PC = () => {
   const [hasSideBar, setHasSideBar] = useState(true);
-  
+  const [mode, setMode] = useState(localStorage.getItem("mode"));
   useEffect(() => {
     const path = window.location.pathname;
     if((path.slice(path.lastIndexOf('/') + 1, path.length) === "doc-truyen")){
@@ -25,11 +25,16 @@ const PC = () => {
     }
   }, []);
 
+  const onChangeMode = newMode => {
+    setMode(newMode);
+    localStorage.setItem("mode", newMode)
+  }
+
   return (
     <Router>
-      <div id="container">
+      <div id="container" className={mode}>
         <NavBarHead/>
-        <MenuHeader/>
+        <MenuHeader setMode={onChangeMode}/>
         <div id="main" className="d-flex">
           <div className={hasSideBar ? "content" : "content-full"}>
             <Switch>

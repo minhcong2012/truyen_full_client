@@ -10,11 +10,13 @@ import RightSideBar from "../container/RightSideBar/RightSideBar.lazy";
 import LoveStory from "./PC/LoveStory/LoveStory.lazy";
 import Footer from "../container/Footer/Footer.lazy";
 import DetailStory from "./PC/DetailStory/DetailStory.lazy";
-import ReadStory from "./PC/ReadStory/ReadStory.lazy"
+import ReadStory from "./PC/ReadStory/ReadStory.lazy";
+import ModalLogin from "../container/ModalLogin/ModalLogin.lazy";
 import { useEffect, useState } from "react";
 
 const PC = () => {
   const [hasSideBar, setHasSideBar] = useState(true);
+  const [modalLogin, setModalLogin] = useState(false);
   const [mode, setMode] = useState(localStorage.getItem("mode"));
   useEffect(() => {
     const path = window.location.pathname;
@@ -32,8 +34,8 @@ const PC = () => {
 
   return (
     <Router>
-      <div id="container" className={mode}>
-        <NavBarHead/>
+      <div id="container-pc" className={mode}>
+        <NavBarHead setModalLogin={setModalLogin}/>
         <MenuHeader setMode={onChangeMode}/>
         <div id="main" className="d-flex">
           <div className={hasSideBar ? "content" : "content-full"}>
@@ -54,6 +56,10 @@ const PC = () => {
         </Switch>
         {hasSideBar && <Footer/>}
       </div>
+      <div id="container-mobile">
+
+      </div>
+      <ModalLogin modalLogin={modalLogin} setModalLogin={setModalLogin} />
     </Router>
   )
 }

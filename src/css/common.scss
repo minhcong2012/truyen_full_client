@@ -10,8 +10,11 @@ code {
 html {
 	font-size: 14px;
 }
-#container{ 
+#container-pc{ 
 	min-height: 100vh;
+	@media screen and (max-width: 1124px) {
+		display: none;
+	}
 }
 html {
 	font-size: 14px;
@@ -73,6 +76,30 @@ html {
 	margin-right: 5px;
 	cursor: pointer;
 	font-family: "Font Awesome 5 Free" !important;
+}
+
+.modal-header{
+	color: #fff !important;
+	background-color: #17507F !important;
+}
+
+.avatar{
+	cursor: pointer;
+	.btn-primary{
+		background-color: inherit !important;
+	}
+	.btn-primary:hover{
+		background-color: inherit;
+	}
+}
+
+.modal{
+	input[type="email"]{
+		min-height: 50px;
+	}
+	input[type="password"]{
+		min-height: 50px;
+	}
 }
 
 .light{
@@ -141,6 +168,34 @@ html {
 			.page-link{
 				color: #fff !important;
 			}
+		}
+	}
+	.DetailStory{
+		table{
+			color: #000;
+			tr{
+				background-color: rgba(0, 0, 0, 0.05) !important;
+			}
+		}
+		.nav-item{
+			.nav-link{
+				color: #000 !important;
+			}
+			.active{
+				color: #fff !important;
+			}
+		}
+		.story-des{
+			background-color: rgba(0, 0, 0, 0.05) !important;
+			color: #000;
+		}
+		.comment-wrapper{
+			color: #000;
+			background-color: rgba(0, 0, 0, 0.05) !important;
+		}
+		.card-body{
+			background-color: rgba(0, 0, 0, 0.05) !important;
+			color: #000;
 		}
 	}
 }

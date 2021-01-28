@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { Image, DropdownButton, Dropdown } from 'react-bootstrap';
 // import PropTypes from 'prop-types';
 
 
-const NavBar = () => {
+const NavBar = ({...props}) => {
   const [keySearch, setKeySearch] = useState('');
-
+  const [account, setAccount ] = useState(localStorage.getItem("username"))
   return (
     <nav className="navbar d-flex justify-content-between navbar-expand-lg navbar-light">
       <a className="navbar-brand" href="/">
@@ -46,11 +47,30 @@ const NavBar = () => {
           </div>
         }
       </div>
-      <div>
+      <div className="d-flex">
         <button className="btn notification" type="submit">
           <i className="fas fa-bell"></i>
         </button>
-        <button className="btn btn-warning" type="submit">ĐĂNG NHẬP</button>
+        {account ? 
+          <span className="avatar">
+            <DropdownButton
+              menuAlign="right"
+              title={<Image width={33} className="ml-3" src="/img/avatar.jpg" roundedCircle />}
+              id="dropdown-menu-align-right"
+            >
+              <Dropdown.Item eventKey="1">Đã đọc gần đây</Dropdown.Item>
+              <Dropdown.Divider />
+              <Dropdown.Item eventKey="4" onClick={() => {
+                localStorage.removeItem("username"); 
+                setAccount(null)}}
+              >
+                Đăng xuất
+              </Dropdown.Item>
+            </DropdownButton>
+          </span>
+        :
+          <button className="btn btn-warning" type="submit" onClick={() => props.setModalLogin(true)}>ĐĂNG NHẬP</button>
+        }
       </div>
     </nav>
   )

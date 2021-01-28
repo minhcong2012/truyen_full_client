@@ -15,6 +15,8 @@ const MenuHeader = ({...props}) => {
     }
   }
 
+  const mode = localStorage.getItem("mode")
+
   return (
     <div className="menu-header">
       <div className="pos-relavtive d-flex justify-content-between">
@@ -28,7 +30,7 @@ const MenuHeader = ({...props}) => {
         </div>
         <div>
           <label className="switch">
-            <input type="checkbox" onChange={onChangeMode}/>
+            <input type="checkbox" checked={mode === "light"} onChange={onChangeMode}/>
             <span className="slider round"></span>
           </label>
         </div>

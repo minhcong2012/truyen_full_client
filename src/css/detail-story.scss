@@ -47,13 +47,11 @@
   .nav{
     margin-top: 20px;
     .nav-item{
-      *{
-        color: #fff !important;
-      }
       border: none;
       a {
         text-transform: uppercase;
         border-radius: 0;
+        color: #fff ;
       }
     }
     .active{

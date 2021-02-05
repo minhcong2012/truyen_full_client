@@ -1,32 +1,16 @@
 import React, {useState} from 'react';
 // import PropTypes from 'prop-types';
-import { Table, Breadcrumb, Nav } from "react-bootstrap";
+import { Table, Breadcrumb } from "react-bootstrap";
 
 const Update = () => {
 
-const [ tab, setTab ] = useState(2);
+// const [ tab, setTab ] = useState(2);
   return (
     <div className="Update">
-      <Nav variant="tabs" activeKey={tab}>
-        <Nav.Item>
-          <Nav.Link href="/" className="update-title" style={{ background: "linear-gradient(180deg, #17507F 0%, rgba(24, 54, 79, 0) 326.67%)"}} eventKey={1} onClick={() => setTab(1)} disabled>TRUYỆN MỚI CẬP NHẬT</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={2} onClick={() => setTab(2)}>TRUYỆN NGÔN TÌNH</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={3} onClick={() => setTab(3)}>TRUYỆN KIẾM HIỆP</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={4} onClick={() => setTab(4)}>TRUYỆN TRINH THÁM</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={5} onClick={() => setTab(5)}>TRUYỆN TIỂU THUYẾT</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={6} onClick={() => setTab(6)}>TRUYỆN TEEN</Nav.Link>
-        </Nav.Item>
-      </Nav>
+       <div className="d-flex justify-content-between update-title" style={{ background: "linear-gradient(180deg, #17507F 0%, rgba(24, 54, 79, 0) 326.67%)"}}>
+        <div className="p-2 p-3">TRUYỆN MỚI CẬP NHẬT</div>
+        <i class="fas fa-bars p-3" style={{ fontSize: "22px"}}></i>
+      </div>
       <Table className="ml-10">
         <thead>
           <tr>

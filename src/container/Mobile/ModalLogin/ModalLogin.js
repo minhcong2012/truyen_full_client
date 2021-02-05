@@ -8,16 +8,15 @@ const ModalLogin = ({...props}) => {
   const [openRegister, setOpenRegister] = useState(false);
   const emailLogin = useRef(null);
   const passwordLogin= useRef(null);
+  const [error, setError] = useState(false);
 
   const login = () => {
-    console.log(emailLogin.current.value)
-    if(emailLogin.current.value !== "cong@mail.com"){
-      return alert("Email chưa đăng ký !");
-    } else if(passwordLogin.current.value !== "123456"){
-      return alert("Sai mật khẩu");
+    if(emailLogin.current.value !== "cong@mail.com" || passwordLogin.current.value !== "123456"){
+      return setError(true);
     }
     props.setModalLogin(false);
     localStorage.setItem("username", emailLogin.current.value)
+    setError(false);
   }
   
   return (
@@ -60,11 +59,11 @@ const ModalLogin = ({...props}) => {
             <Form.Check type="checkbox" label="Tôi đồng ý với các điều khoản & điều kiện" />
           </Form.Group>
           <div className="text-center">
-            <button className="btn login-btn w-100" type="submit" onClick={() => setOpenRegister(true)}>Đăng ký tài khoản</button>
+            <button className="btn login-btn w-100" onClick={() => setOpenRegister(true)}>Đăng ký tài khoản</button>
           </div>
         </Form>
         <div className="mt-4 text-center">
-          Bạn đã có tài khoản. Vui lòng <a href="#" onClick={() => setOpenRegister(false)}>Đăng nhập</a>
+          Bạn đã có tài khoản. Vui lòng <span onClick={() => setOpenRegister(false)}>Đăng nhập</span>
         </div>
       </Modal.Body>
     </React.Fragment>
@@ -80,15 +79,18 @@ const ModalLogin = ({...props}) => {
       </Modal.Title>
       </Modal.Header>
       <Modal.Body className="p-5">
-        <Form id="login-form" onSubmit={() => login()}>
+        <Form id="login-form">
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control ref={emailLogin} type="email" placeholder="Enter email" required/>
+            <Form.Control ref={emailLogin} isInvalid={error} type="email" placeholder="Enter email" required/>
           </Form.Group>
 
           <Form.Group controlId="formBasicPassword">
             <Form.Label>Password</Form.Label>
-            <Form.Control ref={passwordLogin} type="password" placeholder="Password" required/>
+            <Form.Control ref={passwordLogin} isInvalid={error} type="password" placeholder="Password" required/>
+            <Form.Control.Feedback type="invalid">
+              Tài khoản chưa được đăng ký hoặc sai mật khẩu !
+            </Form.Control.Feedback>
           </Form.Group>
           
           <div className="d-flex justify-content-between">
@@ -98,7 +100,7 @@ const ModalLogin = ({...props}) => {
             <a href="/">Forgot password</a>
           </div>
         </Form>
-        <button className="btn login-btn" type="submit" form="login-form">Đăng nhập</button>
+        <button className="btn login-btn" onClick={() => login()} >Đăng nhập</button>
         <button className="btn ml-3 register-btn" onClick={() => setOpenRegister(true)}>Đăng ký</button>
       </Modal.Body>
     </React.Fragment>

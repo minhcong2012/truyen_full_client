@@ -3,15 +3,25 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Home from "./PC/Home/Home.lazy";
-import NavBarHead from "../container/NavBarHead/NavBarHead.lazy";
-import MenuHeader from "../container/MenuHeader/MenuHeader.lazy";
-import RightSideBar from "../container/RightSideBar/RightSideBar.lazy";
-import LoveStory from "./PC/LoveStory/LoveStory.lazy";
-import Footer from "../container/Footer/Footer.lazy";
-import DetailStory from "./PC/DetailStory/DetailStory.lazy";
-import ReadStory from "./PC/ReadStory/ReadStory.lazy";
-import ModalLogin from "../container/ModalLogin/ModalLogin.lazy";
+import HomePC from "./PC/Home/Home.lazy";
+import HomeMobile from "./Mobile/Home/Home.lazy";
+import LoveStoryPC from "./PC/LoveStory/LoveStory.lazy";
+import LoveStoryMobile from "./Mobile/LoveStory/LoveStory.lazy";
+import DetailStoryPC from "./PC/DetailStory/DetailStory.lazy";
+import DetailStoryMobile from "./Mobile/DetailStory/DetailStory.lazy";
+import ReadStoryPC from "./PC/ReadStory/ReadStory.lazy";
+import ReadStoryMobile from "./Mobile/ReadStory/ReadStory.lazy";
+
+import RightSideBarPC from "../container/PC/RightSideBar/RightSideBar.lazy";
+import FooterPC from "../container/PC/Footer/Footer.lazy";
+import ModalLogin from "../container/PC/ModalLogin/ModalLogin.lazy";
+import NavBarHeadPC from "../container/PC/NavBarHead/NavBarHead.lazy";
+import MenuHeaderPC from "../container/PC/MenuHeader/MenuHeader.lazy";
+
+import RightSideBarMobile from "../container/Mobile/RightSideBar/RightSideBar.lazy";
+import FooterMobile from "../container/Mobile/Footer/Footer.lazy";
+import NavBarHeadMobile from "../container/Mobile/NavBarHead/NavBarHead.lazy";
+import MenuHeaderMobile from "../container/Mobile/MenuHeader/MenuHeader.lazy";
 import { useEffect, useState } from "react";
 
 const PC = () => {
@@ -35,29 +45,47 @@ const PC = () => {
   return (
     <Router>
       <div id="container-pc" className={mode}>
-        <NavBarHead setModalLogin={setModalLogin}/>
-        <MenuHeader setMode={onChangeMode}/>
+        <NavBarHeadPC setModalLogin={setModalLogin} modalLogin={modalLogin}/>
+        <MenuHeaderPC setMode={onChangeMode}/>
         <div id="main" className="d-flex">
           <div className={hasSideBar ? "content" : "content-full"}>
             <Switch>
-              <Route path="/" component={Home} exact/>
-              <Route path="/truyen-ngon-tinh" component={LoveStory} exact/>
-              <Route path="/truyen/:id" component={DetailStory} exact/>
+              <Route path="/" component={HomePC} exact/>
+              <Route path="/truyen-ngon-tinh" component={LoveStoryPC} exact/>
+              <Route path="/truyen/:id" component={DetailStoryPC} exact/>
             </Switch>
           </div>
           {hasSideBar && 
             <div className="side-bar">
-              <RightSideBar/>
+              <RightSideBarPC/>
             </div>
           }
         </div>
         <Switch>
-          <Route path="/truyen/luon-co-nguoi-dien/doc-truyen" component={ReadStory} exact/>
+          <Route path="/truyen/luon-co-nguoi-dien/doc-truyen" component={ReadStoryPC} exact/>
         </Switch>
-        {hasSideBar && <Footer/>}
+        {hasSideBar && <FooterPC/>}
       </div>
       <div id="container-mobile">
-
+        <NavBarHeadMobile setModalLogin={setModalLogin} modalLogin={modalLogin}/>
+          <div id="main" className="d-flex">
+            <div className={hasSideBar ? "w-100" : "content-full"}>
+              <Switch>
+                <Route path="/" component={HomeMobile} exact/>
+                <Route path="/truyen-ngon-tinh" component={LoveStoryMobile} exact/>
+                <Route path="/truyen/:id" component={DetailStoryMobile} exact/>
+              </Switch>
+            </div>
+          </div>
+          {hasSideBar && 
+            <div className="side-bar">
+              <RightSideBarMobile/>
+            </div>
+          }
+          <Switch>
+            <Route path="/truyen/luon-co-nguoi-dien/doc-truyen" component={ReadStoryMobile} exact/>
+          </Switch>
+          {hasSideBar && <FooterMobile/>}
       </div>
       <ModalLogin modalLogin={modalLogin} setModalLogin={setModalLogin} />
     </Router>

@@ -73,6 +73,9 @@
       background-color: inherit;
       height: 100%;
       margin: auto 10px;
+      @media screen and (max-width: 1140px){
+        margin: 0;
+      }
       a {
         text-decoration: none;
         color: white;

@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Image, DropdownButton, Dropdown } from 'react-bootstrap';
 // import PropTypes from 'prop-types';
 
 
 const NavBar = ({...props}) => {
   const [keySearch, setKeySearch] = useState('');
-  const [account, setAccount ] = useState(localStorage.getItem("username"))
+  const [account, setAccount ] = useState(localStorage.getItem("username"));
+  useEffect(() => {
+    setAccount(localStorage.getItem("username"))
+  }, [props.modalLogin]);
   return (
     <nav className="navbar d-flex justify-content-between navbar-expand-lg navbar-light">
       <a className="navbar-brand" href="/">

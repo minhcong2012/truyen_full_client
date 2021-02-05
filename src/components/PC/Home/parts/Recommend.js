@@ -13,7 +13,7 @@ const Recommend = () => {
         <Nav.Item className="active more"><a href="/">Xem tất cả  &gt;&gt;</a></Nav.Item>
       </Nav>
       <Container>
-        <Row xs={4}>
+        <Row xl={4} lg={3}>
           <Col onClick={() => history.push("/truyen/1")}>
             <Card>
               <div className="card__label-text">HOT</div>

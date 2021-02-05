@@ -10,18 +10,16 @@ const DetailStory = () => {
       <div className="story-name">LUÔN CÓ NGƯỜI ĐIÊN CUỒNG CỐ CHẤP MUỐN ĐỘC CHIẾM TÔI</div>
       <Table striped>
         <tbody>
-          <tr>
-            <td rowSpan="8" className="story-img">
-              <img alt="img" src="/img/recommend-cover.png"/>
-            </td>
-            <td className="story-info">
-              <div><b>Tác giả:</b> Phi Thiên Ngư</div>
-              <div><b>Thể loại:</b> Truyện Tiên Hiệp , Truyện Trọng Sinh</div>
-              <div><b>Nguồn:</b> VIP</div>
-              <div><b>Trạng thái:</b> </div>
-              <div><b>Lượt đọc:</b> 702801</div>
-              <div><b>Cập nhật:</b> 24/12/2020</div>
-            </td>
+          <tr className="story-img">
+            <img alt="img" src="/img/recommend-cover.png"/>
+          </tr>
+          <tr className="story-info">
+            <div><b>Tác giả:</b> Phi Thiên Ngư</div>
+            <div><b>Thể loại:</b> Truyện Tiên Hiệp , Truyện Trọng Sinh</div>
+            <div><b>Nguồn:</b> VIP</div>
+            <div><b>Trạng thái:</b> </div>
+            <div><b>Lượt đọc:</b> 702801</div>
+            <div><b>Cập nhật:</b> 24/12/2020</div>
           </tr>
           <tr>
             <td>
@@ -115,7 +113,7 @@ const DetailStory = () => {
           <u><a href="/">Xem tất cả &gt;&gt;</a></u>
         </Nav>
         <Container>
-          <Row xs={4} className="row-custom-5">
+          <Row xs={2}>
             <Col>
               <Card>
                 <div className="card__label-text">HOT</div>

@@ -1,0 +1,20 @@
+#container-mobile{
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+  .Home {
+    .Recommend{
+      .card-body{
+        width: 100%;
+      }
+    }
+  }
+  .side-bar{
+    width: 100%;
+    margin: 0;
+  }
+  .comment-wrapper{
+    max-width: unset;
+    padding: 0;
+  }
+}
